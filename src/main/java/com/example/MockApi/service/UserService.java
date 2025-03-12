@@ -23,6 +23,17 @@ public class UserService {
         return token;
     }
 
+    public void printUserStorage() {
+        System.out.println("User Storage: " + userStorage);
+    }
+
+    public void printTokenStorage() {
+        System.out.println("Token Storage: " + tokenStorage);
+    }
+
+    public void printAllTokens() {
+        System.out.println("Текущие токены: " + tokenStorage);
+    }
 
     public boolean isValidToken(String token) {
         return tokenStorage.containsKey(token);  // Проверка O(1)
