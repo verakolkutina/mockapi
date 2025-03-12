@@ -12,7 +12,6 @@ public class UserService {
     private final Map<String, UserData> userStorage = new ConcurrentHashMap<>();
     private final Map<String, String> tokenStorage = new ConcurrentHashMap<>();
 
-
     public String register(String login, String password) {
         if (userStorage.containsKey(login)) {
             throw new IllegalArgumentException("Пользователь уже существует.");
@@ -20,6 +19,8 @@ public class UserService {
         String token = UUID.randomUUID().toString();
         userStorage.put(login, new UserData(token, password));
         tokenStorage.put(token, login);  // Храним токен отдельно
+
+        printAllTokens(); // Выводим все токены в консоль
         return token;
     }
 
@@ -48,4 +49,3 @@ public class UserService {
         return "Пользователь удален.";
     }
 }
-

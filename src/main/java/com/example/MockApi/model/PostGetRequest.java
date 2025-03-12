@@ -1,11 +1,20 @@
 package com.example.MockApi.model;
 
-public class PostGetRequest {
+import com.fasterxml.jackson.annotation.JsonProperty;
 
+public class PostGetRequest {
+    @JsonProperty("token")
     private String token;
     private String firstName;
+
+    @JsonProperty("lastName")
     private String lastName;
     private String middleName;
+
+
+        // геттеры и сеттеры
+
+
 
     // Геттеры и сеттеры
     public String getToken() {

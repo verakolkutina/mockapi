@@ -1,6 +1,1006 @@
-2025-03-10T22:58:28.165+05:00  INFO 71127 --- [MockApi] [main] c.e.MockApi.MockApiApplicationTests      : Starting MockApiApplicationTests using Java 21.0.3 with PID 71127 (started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
-2025-03-10T22:58:28.167+05:00  INFO 71127 --- [MockApi] [main] c.e.MockApi.MockApiApplicationTests      : The following 1 profile is active: "dev"
-2025-03-10T22:58:28.786+05:00  WARN 71127 --- [MockApi] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2025-03-10T22:58:28.819+05:00  INFO 71127 --- [MockApi] [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2025-03-10T22:58:29.773+05:00  INFO 71127 --- [MockApi] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
-2025-03-10T22:58:29.810+05:00  INFO 71127 --- [MockApi] [main] c.e.MockApi.MockApiApplicationTests      : Started MockApiApplicationTests in 1.824 seconds (process running for 2.34)
+2025-03-12T00:36:56.134+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:36:56.158+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:36:56.225+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:36:56.326+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:36:56.432+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:36:56.534+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:36:56.626+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:36:56.727+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:36:56.828+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:36:56.932+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:36:58.156+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:36:58.167+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:36:58.540+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:36:58.551+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:36:58.834+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:36:58.842+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:38:40.758+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:40:45.303+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:40:45.398+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:40:45.495+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:40:45.598+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:40:45.696+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:40:45.795+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:40:45.896+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:40:45.997+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:40:46.095+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:40:46.194+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:40:47.403+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:40:47.415+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:40:47.800+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:40:47.811+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:40:48.098+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:40:48.106+05:00  WARN 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-03-12T00:45:00.529+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:00.607+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:00.699+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:00.801+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:00.905+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:01.001+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:01.100+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:01.202+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:01.303+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:01.399+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:02.538+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:02.613+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:02.622+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:02.705+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:02.802+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:02.911+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:03.004+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:03.011+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:03.106+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:03.204+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:03.308+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:03.317+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:45:03.400+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:04.628+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:05.016+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:45:05.322+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:02.476+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:02.567+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:02.669+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:02.766+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:02.868+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:02.967+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:03.069+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:03.170+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:03.269+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:03.374+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:04.481+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:04.573+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:04.584+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:04.675+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:04.772+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:04.871+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:04.971+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:04.980+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:05.071+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:05.175+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:05.275+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:05.284+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:46:05.376+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:06.590+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:06.986+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:46:07.285+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:48:05.192+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:48:05.575+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:48:05.875+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:48:07.199+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:48:07.210+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:48:07.581+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:48:07.589+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:48:07.877+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:48:07.886+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T00:48:09.215+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:48:09.594+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:48:09.889+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T00:56:49.159+05:00  INFO 76397 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-12T00:56:49.211+05:00  INFO 76397 --- [MockApi] [Thread-1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T00:56:49.215+05:00  INFO 76397 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T00:56:49.356+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 76397 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T00:56:49.356+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T00:56:49.539+05:00  WARN 76397 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T00:56:49.541+05:00  INFO 76397 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T00:56:49.632+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T00:56:49.633+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T00:56:49.633+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T00:56:49.639+05:00  INFO 76397 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T00:56:49.639+05:00  INFO 76397 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 282 ms
+2025-03-12T00:56:50.005+05:00  WARN 76397 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T00:56:50.008+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T00:56:50.024+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T00:56:50.029+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.685 seconds (process running for 4395.526)
+2025-03-12T00:56:50.030+05:00  INFO 76397 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T00:57:44.910+05:00  INFO 76397 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-12T00:57:44.922+05:00  INFO 76397 --- [MockApi] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T00:57:44.926+05:00  INFO 76397 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T00:57:45.015+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 76397 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T00:57:45.015+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T00:57:45.142+05:00  WARN 76397 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T00:57:45.143+05:00  INFO 76397 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T00:57:45.194+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T00:57:45.195+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T00:57:45.195+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T00:57:45.206+05:00  INFO 76397 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T00:57:45.206+05:00  INFO 76397 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 190 ms
+2025-03-12T00:57:45.517+05:00  WARN 76397 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T00:57:45.520+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T00:57:45.532+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T00:57:45.536+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.531 seconds (process running for 4451.035)
+2025-03-12T00:57:45.537+05:00  INFO 76397 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T00:58:14.201+05:00  INFO 76397 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-12T00:58:14.210+05:00  INFO 76397 --- [MockApi] [Thread-9] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T00:58:14.214+05:00  INFO 76397 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T00:58:14.309+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 76397 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T00:58:14.309+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T00:58:14.437+05:00  WARN 76397 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T00:58:14.438+05:00  INFO 76397 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T00:58:14.482+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T00:58:14.483+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T00:58:14.483+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T00:58:14.490+05:00  INFO 76397 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T00:58:14.490+05:00  INFO 76397 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 180 ms
+2025-03-12T00:58:14.806+05:00  WARN 76397 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T00:58:14.808+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T00:58:14.822+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T00:58:14.827+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.529 seconds (process running for 4480.327)
+2025-03-12T00:58:14.827+05:00  INFO 76397 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T01:01:47.189+05:00  INFO 76397 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-03-12T01:01:47.193+05:00  INFO 76397 --- [MockApi] [Thread-13] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T01:01:47.194+05:00  INFO 76397 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T01:01:47.271+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 76397 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T01:01:47.271+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T01:01:47.433+05:00  WARN 76397 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T01:01:47.434+05:00  INFO 76397 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T01:01:47.516+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T01:01:47.517+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T01:01:47.517+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T01:01:47.522+05:00  INFO 76397 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T01:01:47.522+05:00  INFO 76397 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 250 ms
+2025-03-12T01:01:47.818+05:00  WARN 76397 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T01:01:47.820+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T01:01:47.832+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T01:01:47.836+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.581 seconds (process running for 4693.344)
+2025-03-12T01:01:47.837+05:00  INFO 76397 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T01:03:07.960+05:00  INFO 76397 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-03-12T01:03:07.968+05:00  INFO 76397 --- [MockApi] [Thread-17] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T01:03:07.971+05:00  INFO 76397 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T01:03:08.041+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 76397 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T01:03:08.042+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T01:03:08.175+05:00  WARN 76397 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T01:03:08.176+05:00  INFO 76397 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T01:03:08.227+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T01:03:08.227+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T01:03:08.227+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T01:03:08.233+05:00  INFO 76397 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T01:03:08.233+05:00  INFO 76397 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 191 ms
+2025-03-12T01:03:08.541+05:00  WARN 76397 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T01:03:08.543+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T01:03:08.555+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T01:03:08.559+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.528 seconds (process running for 4774.069)
+2025-03-12T01:03:08.560+05:00  INFO 76397 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T01:04:00.825+05:00  INFO 76397 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-12T01:04:00.851+05:00  INFO 76397 --- [MockApi] [Thread-21] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T01:04:00.854+05:00  INFO 76397 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T01:04:00.933+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 76397 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T01:04:00.933+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T01:04:01.065+05:00  WARN 76397 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T01:04:01.066+05:00  INFO 76397 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T01:04:01.120+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T01:04:01.120+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T01:04:01.120+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T01:04:01.131+05:00  INFO 76397 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T01:04:01.131+05:00  INFO 76397 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 197 ms
+2025-03-12T01:04:01.449+05:00  WARN 76397 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T01:04:01.452+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T01:04:01.463+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T01:04:01.468+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.546 seconds (process running for 4826.98)
+2025-03-12T01:04:01.469+05:00  INFO 76397 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T01:12:21.890+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-12T01:12:21.891+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-12T01:12:21.897+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-03-12T01:12:21.908+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:12:22.282+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:12:22.585+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:12:23.919+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T01:12:23.940+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:12:24.285+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T01:12:24.293+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:12:24.589+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T01:12:24.595+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:12:25.946+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T01:12:26.296+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T01:12:26.601+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T01:20:02.825+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:20:03.210+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:20:03.509+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:20:04.832+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T01:20:04.855+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:20:05.218+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T01:20:05.226+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:20:05.515+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T01:20:05.525+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T01:20:06.856+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T01:20:07.232+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T01:20:07.529+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:02:33.914+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:02:34.187+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:02:34.492+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:02:35.929+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:02:36.189+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:02:36.495+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:09:00.530+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:09:00.912+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:09:01.208+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:09:02.535+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:09:02.918+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:09:03.211+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:09:17.303+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:09:17.708+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:09:18.008+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:09:19.307+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:09:19.714+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:09:20.014+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:14:12.535+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:14:12.907+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:14:13.217+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:14:14.539+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:14:14.915+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:14:15.221+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:15:31.539+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:15:31.926+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:15:32.225+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:15:33.547+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:15:33.930+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:15:34.228+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:16:23.708+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:16:24.084+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:16:24.385+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:16:25.716+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:16:26.092+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:16:26.392+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:20:36.489+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:20:36.869+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:20:37.166+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:20:38.496+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:20:38.872+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:20:39.172+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:21:59.510+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:21:59.902+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:22:00.198+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:22:01.518+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:22:01.905+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:22:02.204+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:22:14.953+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:22:15.354+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:22:15.656+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:22:16.957+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:22:17.360+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:22:17.662+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:28:17.224+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:28:17.606+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:28:17.905+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:28:19.228+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:28:19.244+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:28:19.607+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:28:19.614+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:28:19.913+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:28:19.922+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:28:21.249+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:28:21.271+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:28:21.620+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:28:21.629+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:28:21.926+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:28:21.938+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T10:28:23.278+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:28:23.633+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T10:28:23.940+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T16:40:00.402+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T16:40:00.734+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T16:40:01.033+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T16:40:02.422+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T16:40:02.459+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T16:40:02.736+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T16:40:02.743+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T16:40:03.039+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T16:40:03.048+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T16:40:04.465+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T16:40:04.476+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T16:40:04.745+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T16:40:04.751+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T16:40:05.053+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T16:40:05.060+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T16:40:06.478+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T16:40:06.757+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T16:40:07.062+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:01:06.070+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:01:06.453+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:01:06.752+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:01:08.080+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:01:08.104+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:01:08.459+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:01:08.464+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:01:08.758+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:01:08.767+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:01:10.109+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:01:10.119+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:01:10.469+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:01:10.478+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:01:10.773+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:01:10.782+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:01:12.126+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:01:12.482+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:01:12.788+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:05:01.629+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:05:02.021+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:05:02.319+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:05:03.634+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:05:03.645+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:05:04.022+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:05:04.031+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:05:04.326+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:05:04.334+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:05:05.646+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:05:05.652+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:05:06.036+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:05:06.044+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:05:06.336+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:05:06.345+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:05:07.658+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:05:08.047+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:05:08.349+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:06:00.008+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:06:00.400+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:06:00.692+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:06:02.012+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:06:02.022+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:06:02.406+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:06:02.412+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:06:02.697+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:06:02.702+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:06:04.023+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:06:04.030+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:06:04.413+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:06:04.421+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:06:04.704+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:06:04.709+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:06:06.036+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:06:06.425+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:06:06.711+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:09:33.231+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:09:33.614+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:09:33.913+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:09:35.236+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:09:35.243+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:09:35.619+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:09:35.626+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:09:35.916+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:09:35.923+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:09:37.248+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:09:37.256+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:09:37.632+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:09:37.642+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:09:37.926+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:09:37.934+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:09:39.257+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:09:39.645+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:09:39.936+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:13:26.538+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:13:26.924+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:13:27.223+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:13:28.550+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:13:28.560+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:13:28.930+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:13:28.952+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:13:29.227+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:13:29.236+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:13:30.563+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:13:30.575+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:13:30.959+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:13:30.967+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:13:31.239+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:13:31.248+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:13:32.580+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:13:32.970+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:13:33.254+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:01.611+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:01.998+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:02.300+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:03.618+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:03.628+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:04.003+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:04.008+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:04.304+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:04.310+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:05.634+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:05.642+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:06.010+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:06.020+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:06.313+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:06.321+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:07.646+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:08.022+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:08.327+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:27.173+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:27.572+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:27.869+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:29.180+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:29.189+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:29.577+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:29.584+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:29.874+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:29.883+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:31.194+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:31.203+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:31.585+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:31.595+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:31.885+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:31.894+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:15:33.207+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:33.597+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:15:33.898+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:17:52.982+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:17:53.370+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:17:53.669+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:17:54.990+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:17:55.010+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:17:55.374+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:17:55.382+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:17:55.670+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:17:55.677+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:17:57.011+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:17:57.022+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:17:57.387+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:17:57.409+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:17:57.683+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:17:57.690+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:17:59.028+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:17:59.414+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:17:59.696+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:19:51.056+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:19:51.446+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:19:51.743+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:19:53.066+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:19:53.083+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:19:53.452+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:19:53.456+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:19:53.749+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:19:53.756+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:19:55.088+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:19:55.095+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:19:55.461+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:19:55.470+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:19:55.761+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:19:55.770+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:19:57.100+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:19:57.473+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:19:57.776+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:22:30.724+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:22:31.110+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:22:31.411+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:22:32.733+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:22:32.744+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:22:33.115+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:22:33.123+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:22:33.417+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:22:33.424+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:22:34.750+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:22:34.758+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:22:35.126+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:22:35.131+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:22:35.427+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:22:35.436+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:22:36.763+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:22:37.136+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:22:37.438+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:29:24.881+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:29:25.265+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:29:25.567+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:29:26.886+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:29:26.918+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:29:27.271+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:29:27.278+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:29:27.571+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:29:27.583+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:29:28.922+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:29:28.931+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:29:29.284+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:29:29.289+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:29:29.584+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:29:29.588+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:29:30.932+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:29:31.295+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:29:31.593+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:30:44.626+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:30:45.010+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:30:45.308+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:30:46.633+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:30:46.643+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:30:47.016+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:30:47.022+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:30:47.311+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:30:47.314+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:30:48.648+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:30:48.655+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:30:49.027+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:30:49.036+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:30:49.319+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:30:49.323+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:30:50.661+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:30:51.041+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:30:51.327+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:37:07.180+05:00  INFO 76397 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-12T17:37:07.212+05:00  INFO 76397 --- [MockApi] [Thread-25] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T17:37:07.216+05:00  INFO 76397 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T17:37:07.375+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 76397 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T17:37:07.375+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T17:37:07.584+05:00  WARN 76397 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T17:37:07.587+05:00  INFO 76397 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T17:37:07.673+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T17:37:07.674+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T17:37:07.674+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T17:37:07.686+05:00  INFO 76397 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T17:37:07.686+05:00  INFO 76397 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 310 ms
+2025-03-12T17:37:08.049+05:00  WARN 76397 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T17:37:08.052+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T17:37:08.067+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T17:37:08.071+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.713 seconds (process running for 22397.219)
+2025-03-12T17:37:08.072+05:00  INFO 76397 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T17:37:31.970+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-12T17:37:31.970+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-12T17:37:31.978+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2025-03-12T17:37:31.994+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:37:32.365+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:37:32.662+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:37:34.002+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:37:34.018+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:37:34.370+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:37:34.378+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:37:34.666+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:37:34.673+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:37:36.020+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:37:36.030+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:37:36.384+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:37:36.391+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:37:36.677+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:37:36.685+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:37:38.037+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:37:38.394+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:37:38.691+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:38:56.865+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:38:57.249+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:38:57.543+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:38:58.870+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:38:58.882+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:38:59.255+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:38:59.265+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:38:59.545+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:38:59.551+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:39:00.884+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:39:00.889+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:39:01.270+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:39:01.279+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:39:01.557+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:39:01.569+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:39:02.895+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:39:03.281+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:39:03.572+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:40:57.568+05:00  INFO 76397 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-03-12T17:40:57.576+05:00  INFO 76397 --- [MockApi] [Thread-29] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T17:40:57.580+05:00  INFO 76397 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T17:40:57.659+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 76397 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T17:40:57.659+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T17:40:57.813+05:00  WARN 76397 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T17:40:57.814+05:00  INFO 76397 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T17:40:57.879+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T17:40:57.881+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T17:40:57.881+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T17:40:57.886+05:00  INFO 76397 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T17:40:57.886+05:00  INFO 76397 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 226 ms
+2025-03-12T17:40:58.239+05:00  WARN 76397 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T17:40:58.242+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T17:40:58.255+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T17:40:58.260+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.613 seconds (process running for 22627.417)
+2025-03-12T17:40:58.260+05:00  INFO 76397 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T17:42:47.621+05:00  INFO 76397 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-12T17:42:47.642+05:00  INFO 76397 --- [MockApi] [Thread-33] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T17:42:47.646+05:00  INFO 76397 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T17:42:47.728+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 76397 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T17:42:47.728+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T17:42:47.868+05:00  WARN 76397 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T17:42:47.868+05:00  INFO 76397 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T17:42:47.913+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T17:42:47.914+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T17:42:47.914+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T17:42:47.922+05:00  INFO 76397 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T17:42:47.923+05:00  INFO 76397 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 194 ms
+2025-03-12T17:42:48.232+05:00  WARN 76397 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T17:42:48.235+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T17:42:48.246+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T17:42:48.250+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.531 seconds (process running for 22737.412)
+2025-03-12T17:42:48.251+05:00  INFO 76397 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T17:46:00.714+05:00  INFO 76397 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-12T17:46:00.732+05:00  INFO 76397 --- [MockApi] [Thread-37] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T17:46:00.737+05:00  INFO 76397 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T17:46:00.819+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 76397 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T17:46:00.819+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T17:46:00.968+05:00  WARN 76397 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T17:46:00.969+05:00  INFO 76397 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T17:46:01.027+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T17:46:01.028+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T17:46:01.028+05:00  INFO 76397 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T17:46:01.033+05:00  INFO 76397 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T17:46:01.033+05:00  INFO 76397 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 213 ms
+2025-03-12T17:46:01.384+05:00  WARN 76397 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T17:46:01.387+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T17:46:01.403+05:00  INFO 76397 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T17:46:01.407+05:00  INFO 76397 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.599 seconds (process running for 22930.577)
+2025-03-12T17:46:01.408+05:00  INFO 76397 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T17:46:06.105+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-12T17:46:06.105+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-12T17:46:06.107+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-12T17:46:06.111+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:46:06.499+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:46:06.805+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:46:08.122+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:46:08.139+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:46:08.503+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:46:08.521+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:46:08.811+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:46:08.819+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:46:10.146+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:46:10.156+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:46:10.522+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:46:10.531+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:46:10.823+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:46:10.831+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:46:12.160+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:46:12.533+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:46:12.836+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:47:19.900+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:47:20.268+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:47:20.568+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:47:21.907+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:47:21.925+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:47:22.273+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:47:22.280+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:47:22.572+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:47:22.579+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:47:23.933+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:47:23.940+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:47:24.286+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:47:24.300+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:47:24.584+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:47:24.589+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:47:25.946+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:47:26.304+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:47:26.595+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:48:44.780+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:48:45.164+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:48:45.459+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:48:46.786+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:48:46.796+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:48:47.166+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:48:47.173+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:48:47.461+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:48:47.466+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:48:48.797+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:48:48.802+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:48:49.179+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:48:49.184+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:48:49.467+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:48:49.476+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:48:50.808+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:48:51.187+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:48:51.478+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:54:43.870+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:54:44.257+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:54:44.558+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:54:45.876+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:54:45.894+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:54:46.259+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:54:46.267+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:54:46.561+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:54:46.568+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:54:47.900+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:54:47.908+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:54:48.268+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:54:48.276+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:54:48.574+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:54:48.580+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T17:54:49.914+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:54:50.280+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T17:54:50.581+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:45:20.012+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:45:20.375+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:45:20.670+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:45:22.018+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:45:22.053+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:45:22.376+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:45:22.383+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:45:22.676+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:45:22.682+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:45:24.057+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:45:24.064+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:45:24.389+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:45:24.396+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:45:24.683+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:45:24.690+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:45:26.076+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:45:26.399+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:45:26.693+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:47:32.212+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:47:32.600+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:47:32.901+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:47:34.219+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:47:34.228+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:47:34.604+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:47:34.609+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:47:34.902+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:47:34.907+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:47:36.230+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:47:36.237+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:47:36.612+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:47:36.617+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:47:36.912+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:47:36.919+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:47:38.240+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:47:38.622+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:47:38.920+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:48:45.222+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:48:45.610+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:48:45.914+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:48:47.234+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:48:47.246+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:48:47.613+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:48:47.621+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:48:47.916+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:48:47.921+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:48:49.251+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:48:49.256+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:48:49.626+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:48:49.632+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:48:49.927+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:48:49.933+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:48:51.262+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:48:51.635+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:48:51.935+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:49:49.223+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:49:49.597+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:49:49.899+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:49:51.229+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:49:51.243+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:49:51.599+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:49:51.604+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:49:51.904+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:49:51.908+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:49:53.247+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:49:53.254+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:49:53.608+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:49:53.613+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:49:53.913+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:49:53.918+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:49:55.258+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:49:55.618+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:49:55.920+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:39.058+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:39.445+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:39.746+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:41.062+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:41.072+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:41.447+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:41.451+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:41.751+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:41.757+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:43.074+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:43.173+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:43.452+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:43.458+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:43.760+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:43.765+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:45.183+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:45.192+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:45.463+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:45.467+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:45.770+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:45.775+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T18:54:47.197+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:47.471+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T18:54:47.777+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:05:09.826+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:05:11.833+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:05:11.841+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:05:13.842+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:05:13.849+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:05:15.852+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:05:15.858+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:05:17.861+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:06:34.847+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:06:36.854+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:06:36.863+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:06:38.869+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:07:36.363+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:07:38.365+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:07:38.377+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:07:40.378+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:07:40.385+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:07:42.390+05:00  INFO 76397 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:17:04.892+05:00  INFO 76397 --- [MockApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T19:17:04.897+05:00  INFO 76397 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T19:17:14.265+05:00  INFO 89774 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 89774 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T19:17:14.266+05:00  INFO 89774 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T19:17:14.295+05:00  INFO 89774 --- [MockApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-12T19:17:14.297+05:00  INFO 89774 --- [MockApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-12T19:17:14.915+05:00  WARN 89774 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T19:17:14.949+05:00  INFO 89774 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T19:17:15.233+05:00  INFO 89774 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T19:17:15.241+05:00  INFO 89774 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T19:17:15.241+05:00  INFO 89774 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T19:17:15.264+05:00  INFO 89774 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T19:17:15.264+05:00  INFO 89774 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 967 ms
+2025-03-12T19:17:16.078+05:00  WARN 89774 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T19:17:16.084+05:00  INFO 89774 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T19:17:16.120+05:00  INFO 89774 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T19:17:16.130+05:00  INFO 89774 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 2.11 seconds (process running for 2.627)
+2025-03-12T19:17:16.773+05:00  INFO 89774 --- [MockApi] [RMI TCP Connection(4)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-12T19:17:16.774+05:00  INFO 89774 --- [MockApi] [RMI TCP Connection(4)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-12T19:17:16.777+05:00  INFO 89774 --- [MockApi] [RMI TCP Connection(4)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-03-12T19:17:34.602+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:17:36.613+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:17:36.655+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:17:38.660+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:17:38.669+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:17:40.672+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:46:03.043+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:46:05.055+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-5] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:46:05.076+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:46:07.081+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:46:07.096+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:46:09.109+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:46:09.118+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:46:11.124+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:47:17.756+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:47:19.764+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-10] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:47:19.776+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:47:21.782+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:47:21.792+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:47:23.796+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:47:23.804+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T19:47:25.809+05:00  INFO 89774 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T19:55:03.598+05:00  INFO 89774 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-12T19:55:03.610+05:00  INFO 89774 --- [MockApi] [Thread-1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T19:55:03.615+05:00  INFO 89774 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T19:55:03.716+05:00  INFO 89774 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 89774 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T19:55:03.716+05:00  INFO 89774 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T19:55:03.889+05:00  WARN 89774 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T19:55:03.890+05:00  INFO 89774 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T19:55:03.961+05:00  INFO 89774 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T19:55:03.962+05:00  INFO 89774 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T19:55:03.962+05:00  INFO 89774 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T19:55:03.968+05:00  INFO 89774 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T19:55:03.968+05:00  INFO 89774 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 250 ms
+2025-03-12T19:55:04.332+05:00  WARN 89774 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T19:55:04.335+05:00  INFO 89774 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T19:55:04.354+05:00  INFO 89774 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T19:55:04.358+05:00  INFO 89774 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.657 seconds (process running for 2270.918)
+2025-03-12T19:55:04.360+05:00  INFO 89774 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T19:57:12.934+05:00  INFO 89774 --- [MockApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-12T19:57:12.943+05:00  INFO 89774 --- [MockApi] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T19:57:12.949+05:00  INFO 89774 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T19:57:13.039+05:00  INFO 89774 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 89774 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T19:57:13.039+05:00  INFO 89774 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T19:57:13.171+05:00  WARN 89774 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T19:57:13.171+05:00  INFO 89774 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T19:57:13.227+05:00  INFO 89774 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T19:57:13.227+05:00  INFO 89774 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T19:57:13.227+05:00  INFO 89774 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T19:57:13.233+05:00  INFO 89774 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T19:57:13.233+05:00  INFO 89774 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 193 ms
+2025-03-12T19:57:13.546+05:00  WARN 89774 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T19:57:13.549+05:00  INFO 89774 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T19:57:13.561+05:00  INFO 89774 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T19:57:13.565+05:00  INFO 89774 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 0.541 seconds (process running for 2400.129)
+2025-03-12T19:57:13.566+05:00  INFO 89774 --- [MockApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-12T21:02:26.248+05:00  INFO 89774 --- [MockApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T21:02:26.251+05:00  INFO 89774 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T22:08:20.577+05:00  INFO 94824 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 94824 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T22:08:20.578+05:00  INFO 94824 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T22:08:20.596+05:00  INFO 94824 --- [MockApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-12T22:08:20.597+05:00  INFO 94824 --- [MockApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-12T22:08:21.139+05:00  WARN 94824 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T22:08:21.165+05:00  INFO 94824 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T22:08:21.440+05:00  INFO 94824 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T22:08:21.447+05:00  INFO 94824 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T22:08:21.447+05:00  INFO 94824 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T22:08:21.465+05:00  INFO 94824 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T22:08:21.465+05:00  INFO 94824 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 868 ms
+2025-03-12T22:08:22.168+05:00  WARN 94824 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T22:08:22.173+05:00  INFO 94824 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T22:08:22.213+05:00  INFO 94824 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T22:08:22.222+05:00  INFO 94824 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 1.878 seconds (process running for 2.513)
+2025-03-12T22:08:22.858+05:00  INFO 94824 --- [MockApi] [RMI TCP Connection(3)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-12T22:08:22.858+05:00  INFO 94824 --- [MockApi] [RMI TCP Connection(3)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-12T22:08:22.859+05:00  INFO 94824 --- [MockApi] [RMI TCP Connection(3)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-12T22:08:36.385+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:08:38.399+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:08:38.446+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:08:40.453+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:08:40.493+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:08:42.500+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:08:42.512+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:08:44.517+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:09:56.706+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:09:58.714+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:09:58.730+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:10:00.734+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:10:00.738+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:10:02.753+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:10:02.786+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:10:04.790+05:00  INFO 94824 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:22:47.410+05:00  INFO 94824 --- [MockApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T22:22:47.414+05:00  INFO 94824 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T22:25:05.231+05:00  INFO 95289 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 95289 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T22:25:05.232+05:00  INFO 95289 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T22:25:05.253+05:00  INFO 95289 --- [MockApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-12T22:25:05.253+05:00  INFO 95289 --- [MockApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-12T22:25:05.842+05:00  WARN 95289 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T22:25:05.868+05:00  INFO 95289 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T22:25:06.135+05:00  INFO 95289 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T22:25:06.142+05:00  INFO 95289 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T22:25:06.143+05:00  INFO 95289 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T22:25:06.161+05:00  INFO 95289 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T22:25:06.161+05:00  INFO 95289 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 908 ms
+2025-03-12T22:25:06.877+05:00  WARN 95289 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T22:25:06.886+05:00  INFO 95289 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T22:25:06.921+05:00  INFO 95289 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T22:25:06.929+05:00  INFO 95289 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 1.907 seconds (process running for 2.317)
+2025-03-12T22:25:07.289+05:00  INFO 95289 --- [MockApi] [RMI TCP Connection(1)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-12T22:25:07.289+05:00  INFO 95289 --- [MockApi] [RMI TCP Connection(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-12T22:25:07.290+05:00  INFO 95289 --- [MockApi] [RMI TCP Connection(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-12T22:25:19.520+05:00  INFO 95289 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:25:21.534+05:00  INFO 95289 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:25:21.580+05:00  INFO 95289 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:25:23.587+05:00  INFO 95289 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:25:23.616+05:00  INFO 95289 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:25:25.623+05:00  INFO 95289 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:25:25.636+05:00  INFO 95289 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:25:27.638+05:00  INFO 95289 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:33:04.980+05:00  INFO 95289 --- [MockApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T22:33:04.985+05:00  INFO 95289 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-12T22:33:11.116+05:00  INFO 95518 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Starting MockApiApplication using Java 21.0.3 with PID 95518 (/Users/verakolkutina/Desktop/MockApi_02/target/classes started by verakolkutina in /Users/verakolkutina/Desktop/MockApi_02)
+2025-03-12T22:33:11.116+05:00  INFO 95518 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : The following 1 profile is active: "dev"
+2025-03-12T22:33:11.134+05:00  INFO 95518 --- [MockApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-12T22:33:11.135+05:00  INFO 95518 --- [MockApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-12T22:33:11.629+05:00  WARN 95518 --- [MockApi] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-03-12T22:33:11.646+05:00  INFO 95518 --- [MockApi] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-03-12T22:33:11.895+05:00  INFO 95518 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2025-03-12T22:33:11.902+05:00  INFO 95518 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-12T22:33:11.902+05:00  INFO 95518 --- [MockApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-12T22:33:11.920+05:00  INFO 95518 --- [MockApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-12T22:33:11.920+05:00  INFO 95518 --- [MockApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 785 ms
+2025-03-12T22:33:12.590+05:00  WARN 95518 --- [MockApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-12T22:33:12.595+05:00  INFO 95518 --- [MockApi] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2025-03-12T22:33:12.628+05:00  INFO 95518 --- [MockApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2025-03-12T22:33:12.637+05:00  INFO 95518 --- [MockApi] [restartedMain] com.example.MockApi.MockApiApplication   : Started MockApiApplication in 1.73 seconds (process running for 2.085)
+2025-03-12T22:33:13.210+05:00  INFO 95518 --- [MockApi] [RMI TCP Connection(4)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-12T22:33:13.210+05:00  INFO 95518 --- [MockApi] [RMI TCP Connection(4)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-12T22:33:13.212+05:00  INFO 95518 --- [MockApi] [RMI TCP Connection(4)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-12T22:33:21.651+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:33:23.664+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-1] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:33:23.705+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:33:25.712+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-2] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:33:25.736+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:33:27.742+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-3] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:33:27.751+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:33:29.757+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-4] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:39:18.595+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:39:20.600+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-6] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:39:20.613+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:39:22.615+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-7] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:39:22.625+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:39:24.634+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-8] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:39:24.646+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос поступил в UserController.
+2025-03-12T22:39:26.651+05:00  INFO 95518 --- [MockApi] [http-nio-0.0.0.0-8888-exec-9] c.example.MockApi.aspect.LoggingAspect   : Запрос успешно обработан в UserController.
+2025-03-12T22:43:10.701+05:00  INFO 95518 --- [MockApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-12T22:43:10.710+05:00  INFO 95518 --- [MockApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
